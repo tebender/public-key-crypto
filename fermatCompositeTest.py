@@ -12,8 +12,8 @@ k = int(input("Input desired number of trials "))
 i = 0;
 
 while (i < k):
-    r = random.randint(1 , x - 2)
-    y = pow(r, x -1, x)
+    r = random.randint(1 , x - 1)
+    y = pow(r, x - 1, x)
     if (y != 1):
         print(x, "is a composite number")
         break
