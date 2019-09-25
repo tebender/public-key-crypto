@@ -12,12 +12,12 @@ def removePowTwo(a, n):
     i = 0
     s = 1
     while (a % 2 == 0):
-        a = a / 2
+        a = a // 2
         i = i + 1
     if (i % 2 == 1):
         if (n % 8 == 3 or n % 8 == 5):
             s = s * (-1)
-    return [a, s]
+    return [a, s, i]
 
 # function meant to find the jacobi symbol of two non negative integers,
 # a mod n
