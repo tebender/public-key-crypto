@@ -2,7 +2,7 @@
 """
 Created on Tue Oct  1 18:41:44 2019
 
-@author: Tim
+@author: Tim Bender
 """
 import math
 
